@@ -1,0 +1,821 @@
+body{
+    background-color: black;
+}
+
+.Imagenes_inicio{
+     width: 100%;
+     overflow: hidden;
+    
+     
+     line-height: 0px;
+     
+    
+}
+.Imagenes_inicio ul{
+    padding: 0;
+    display: flex;
+    width: 500%;
+    top: 0;
+    position: relative;
+    line-height: 0px;
+    
+
+    animation: cambio 20s infinite alternate ;
+
+}
+.Imagenes_inicio li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+    line-height: 0px;
+
+    
+    
+    
+
+}
+.Imagenes_inicio img{
+    width: 100%;
+    
+}
+
+
+@keyframes cambio{
+    0%  {margin-left: 0;}
+    15% {margin-left: 0;}
+
+    21% {margin-left: -100%;}
+    36% {margin-left: -100%;}
+
+    42% {margin-left: -200%;}
+    57% {margin-left: -200%;}
+
+    63% {margin-left: -300%;}
+    78% {margin-left: -300%;} 
+
+    84% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+ 
+} 
+.Logo{
+    
+    position: absolute;
+    width: 80%;
+    padding: 8%;
+    top: 0%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 0%;
+    
+    
+    
+   
+}
+.botones{
+    padding: 0;
+
+    
+   
+    
+}
+.botones ul{
+   
+   width: 100%;
+   padding: 0;
+   display: flex;
+   position: absolute;
+   top: 77%;
+   
+  
+   
+   
+}
+.botones li{
+   list-style: none;
+   padding:9.8%;
+   justify-content: center;
+
+   
+   
+}
+.boton1{
+    color: white;
+    font-size: 43px;
+    font-family: fone;
+    
+    
+}
+.boton1:hover{
+    
+   color: orange;
+    
+}
+.boton2{
+    color: white;
+    font-size: 43px;
+    font-family: fone;
+    
+}
+.boton2:hover{
+    color: orange;
+    
+}
+.boton3{
+    color: white;
+    font-size: 43px;
+    font-family: fone;
+    
+    
+}
+.boton3:hover{
+   color: orange;
+    
+    
+}
+.boton4{
+    color: white;
+    font-size: 43px;
+    font-family: fone;
+   
+} 
+.boton4:hover{
+    color: orange;
+   
+} 
+/*
+.boton1{
+    color: white;
+    position: absolute;
+    margin-left: 15%;
+    margin-right: auto ;
+    
+    font-size: 43px;
+    font-family: fone;
+    
+}
+.boton2{
+    color: white;
+    position: absolute;
+    
+    font-size: 43px;
+    font-family: fone;
+    
+
+
+}
+.boton3{
+    color: white;
+    position: absolute;
+   
+    font-size: 43px;
+    font-family: fone;
+    
+}
+.boton4{
+    color: white;
+    position: absolute;
+    margin-left: 94%;
+    font-size: 43px;
+    font-family: fone;
+    
+    
+} 
+*/
+.Primer_parrafo{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    font-family: fone ;
+}
+.Primera_Linea{
+    width: 100%;
+}
+.Segunda_linea{
+    width: 100%;
+}
+.Tercera_Linea{
+    width: 100%;
+}
+.Diez{
+    width: 24.8%;
+}
+.Img_redonda{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@font-face{
+
+    font-family: fone;
+    src: url(Cine.ttf)
+}
+@font-face{
+    font-family: roboto;
+    src: url(Roboto.ttf);
+}
+.Segundo_parrafo{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    font-family: fone;
+    
+}
+.Tercer_parrafo{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: roboto;
+}
+.pf{
+    width: 49.5%;
+    padding: 2px;
+}
+.rs1{
+    width: 7.8%;
+    margin-left: 88%;
+    
+    
+}
+.rs1:hover{
+    
+    transform: scale(0.9);
+   
+}
+.rs2{
+    width: 8%;
+    margin-left: 0;
+    
+}
+.rs2:hover{
+    transform: scale(0.9);
+}
+.Redes_sociales{
+   width: 100%;
+  
+
+}
+.Redes_sociales ul{ 
+    
+  display: flex;
+}
+.Redes_sociales li{
+    
+    list-style: none;
+    
+} 
+@media only screen and (max-width:720px){
+    body{
+        background-color:black;
+    }
+
+    .boton0{
+        font-size: 35px;
+    }
+    .boton1{
+        font-size: 37px;
+    }
+    .boton2{
+        font-size: 37px;
+
+    }
+    .boton3{
+        font-size: 37px;
+
+    }
+    .boton4{
+        font-size: 37px;
+    }
+    .pl{
+        width: 100%;
+    }
+    .p2{
+        width: 100%;
+
+    }
+    .p3{
+        width: 100%;
+    }
+    .p4{
+        width: 100%;
+    }
+    .Segundo_parrafo{
+        font-size: 35px;
+    }
+    .rs1{
+        width: 19.8% ;
+        margin-left:70%;
+    }
+    .rs2{
+        width: 20%;
+        
+    }
+    .Tercer_parrafo{
+        font-size: 16px;
+    }
+    .presentacion{
+        width: 60%;
+    }
+    .T2{
+        font-size: 20px;
+    }
+    .Segundo_parrafo{
+        font-size: 40px;
+    }
+    .pf{
+        width: 100%;
+        padding: 2px;
+    }
+    .botones ul{
+        position: relative;
+        background-color: rgb(24, 23, 23);
+        padding: 2px;
+        justify-content: center;
+        
+    }
+    .botones{
+        padding: 0%;
+
+    }
+    .botones li{
+        list-style: none;
+        padding: 0;
+        margin-left: 7.5%;
+        margin-right: 5%;
+    }
+    .Primer_parrafo{
+        font-size: 50px;
+    }
+    .Diez{
+        width: 49.%;
+        
+    }
+    .Img_redonda{
+        width: 35%;
+    }
+
+
+} 
+@media only screen and (max-width:768px){
+    body{
+        background-color:black;
+    }
+
+    .boton0{
+        font-size: 35px;
+    }
+    .boton1{
+        font-size: 37px;
+    }
+    .boton2{
+        font-size: 37px;
+
+    }
+    .boton3{
+        font-size: 37px;
+
+    }
+    .boton4{
+        font-size: 37px;
+    }
+    .pl{
+        width: 100%;
+    }
+    .p2{
+        width: 100%;
+
+    }
+    .p3{
+        width: 100%;
+    }
+    .p4{
+        width: 100%;
+    }
+    .Segundo_parrafo{
+        font-size: 35px;
+    }
+    .rs1{
+        width: 19.8% ;
+        margin-left:70%;
+    }
+    .rs2{
+        width: 20%;
+        
+    }
+    .Tercer_parrafo{
+        font-size: 16px;
+    }
+    .presentacion{
+        width: 60%;
+    }
+    .T2{
+        font-size: 20px;
+    }
+    .Segundo_parrafo{
+        font-size: 40px;
+    }
+    .pf{
+        width: 100%;
+        padding: 2px;
+    }
+    .botones ul{
+        position: relative;
+        background-color: rgb(24, 23, 23);
+        padding: 2px;
+        justify-content: center;
+        
+    }
+    .botones{
+        padding: 0%;
+
+    }
+    .botones li{
+        list-style: none;
+        padding: 0;
+        margin-left: 7.5%;
+        margin-right: 5%;
+    }
+    .Primer_parrafo{
+        font-size: 50px;
+    }
+    .Diez{
+        width: 49%;
+        
+    }
+    .Img_redonda{
+        width: 35%;
+    }
+
+
+}
+@media only screen and (max-width:900px){
+    body{
+        background-color: black;
+    }
+
+    .boton0{
+        font-size: 35px;
+    }
+    .boton1{
+        font-size: 37px;
+    }
+    .boton2{
+        font-size: 37px;
+
+    }
+    .boton3{
+        font-size: 37px;
+
+    }
+    .boton4{
+        font-size: 37px;
+    }
+    .pl{
+        width: 100%;
+    }
+    .p2{
+        width: 100%;
+
+    }
+    .p3{
+        width: 100%;
+    }
+    .p4{
+        width: 100%;
+    }
+    .Segundo_parrafo{
+        font-size: 35px;
+    }
+    .rs1{
+        width: 19.8% ;
+        margin-left:70%;
+    }
+    .rs2{
+        width: 20%;
+        
+    }
+    .Tercer_parrafo{
+        font-size: 16px;
+    }
+    .presentacion{
+        width: 60%;
+    }
+    .T2{
+        font-size: 20px;
+    }
+    .Segundo_parrafo{
+        font-size: 40px;
+    }
+    .pf{
+        width: 100%;
+        padding: 2px;
+    }
+    .botones ul{
+        position: relative;
+        background-color: rgb(24, 23, 23);
+        padding: 2px;
+        justify-content: center;
+        
+    }
+    .botones{
+        padding: 0%;
+
+    }
+    .botones li{
+        list-style: none;
+        padding: 0;
+        margin-left: 9.5%;
+        margin-right: 5%;
+    }
+    .Primer_parrafo{
+        font-size: 50px;
+    }
+    .Diez{
+        width: 49%;
+        
+    }
+    .Img_redonda{
+        width: 35%;
+    }
+
+
+}
+@media only screen and (max-width:1080px){
+    body{
+        background-color: black;
+    }
+
+    .boton0{
+        font-size: 35px;
+    }
+    .boton1{
+        font-size: 37px;
+    }
+    .boton2{
+        font-size: 37px;
+
+    }
+    .boton3{
+        font-size: 37px;
+
+    }
+    .boton4{
+        font-size: 37px;
+    }
+    .pl{
+        width: 100%;
+    }
+    .p2{
+        width: 100%;
+
+    }
+    .p3{
+        width: 100%;
+    }
+    .p4{
+        width: 100%;
+    }
+    .Segundo_parrafo{
+        font-size: 35px;
+    }
+    .rs1{
+        width: 19.8% ;
+        margin-left:70%;
+    }
+    .rs2{
+        width: 20%;
+        
+    }
+    .Tercer_parrafo{
+        font-size: 16px;
+    }
+    .presentacion{
+        width: 60%;
+    }
+    .T2{
+        font-size: 20px;
+    }
+    .Segundo_parrafo{
+        font-size: 40px;
+    }
+    .pf{
+        width: 100%;
+        padding: 2px;
+    }
+    .botones ul{
+        position: relative;
+        background-color: rgb(24, 23, 23);
+        padding: 2px;
+        justify-content: center;
+        
+    }
+    .botones{
+        padding: 0%;
+
+    }
+    .botones li{
+        list-style: none;
+        padding: 0;
+        margin-left: 7.5%;
+        margin-right: 5%;
+    }
+    .Primer_parrafo{
+        font-size: 50px;
+    }
+    .Diez{
+        width: 49%;
+        
+    }
+    .Img_redonda{
+        width: 35%;
+    }
+
+
+}
+@media only screen and (max-width:1750px){
+    body{
+        background-color: black;
+    }
+
+    .boton0{
+        font-size: 35px;
+    }
+    .boton1{
+        font-size: 37px;
+    }
+    .boton2{
+        font-size: 37px;
+
+    }
+    .boton3{
+        font-size: 37px;
+
+    }
+    .boton4{
+        font-size: 37px;
+    }
+    .pl{
+        width: 100%;
+    }
+    .p2{
+        width: 100%;
+
+    }
+    .p3{
+        width: 100%;
+    }
+    .p4{
+        width: 100%;
+    }
+    .Segundo_parrafo{
+        font-size: 35px;
+    }
+    .rs1{
+        width: 19.8% ;
+        margin-left:70%;
+    }
+    .rs2{
+        width: 20%;
+        
+    }
+    .Tercer_parrafo{
+        font-size: 16px;
+    }
+    .presentacion{
+        width: 60%;
+    }
+    .T2{
+        font-size: 20px;
+    }
+    .Segundo_parrafo{
+        font-size: 40px;
+    }
+    .pf{
+        width: 100%;
+        padding: 2px;
+    }
+    .botones ul{
+        position: relative;
+        background-color: rgb(24, 23, 23);
+        padding: 2px;
+        justify-content: center;
+        
+    }
+    .botones{
+        padding: 0%;
+
+    }
+    .botones li{
+        list-style: none;
+        padding: 0;
+        margin-left: 7.5%;
+        margin-right: 5%;
+    }
+    .Primer_parrafo{
+        font-size: 50px;
+    }
+    .Diez{
+        width: 49.5%;
+        
+    }
+    .Img_redonda{
+        width: 35%;
+    }
+
+
+}
+@media only screen and (max-width: 360px){
+    body{
+        background-color: black;
+    }
+
+    .boton0{
+        font-size: 35px;
+    }
+    .boton1{
+        font-size: 37px;
+    }
+    .boton2{
+        font-size: 37px;
+
+    }
+    .boton3{
+        font-size: 37px;
+
+    }
+    .boton4{
+        font-size: 37px;
+    }
+    .pl{
+        width: 100%;
+    }
+    .p2{
+        width: 100%;
+
+    }
+    .p3{
+        width: 100%;
+    }
+    .p4{
+        width: 100%;
+    }
+    .Segundo_parrafo{
+        font-size: 35px;
+    }
+    .rs1{
+        width: 19.8% ;
+        margin-left:70%;
+    }
+    .rs2{
+        width: 20%;
+        
+    }
+    .Tercer_parrafo{
+        font-size: 16px;
+    }
+    .presentacion{
+        width: 60%;
+    }
+    .T2{
+        font-size: 20px;
+    }
+    .Segundo_parrafo{
+        font-size: 40px;
+    }
+    .pf{
+        width: 100%;
+        padding: 2px;
+    }
+    .botones ul{
+        position: relative;
+        background-color: rgb(24, 23, 23);
+        padding: 2px;
+        justify-content: center;
+        
+    }
+    .botones{
+        padding: 0%;
+
+    }
+    .botones li{
+        list-style: none;
+        padding: 0;
+        margin-left: 7.5%;
+        margin-right: 5%;
+    }
+    .Primer_parrafo{
+        font-size: 50px;
+    }
+    .Diez{
+        width: 49.5%;
+        
+    }
+    .Img_redonda{
+        width: 35%;
+    }
+
+
+}

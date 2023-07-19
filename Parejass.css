@@ -1,0 +1,258 @@
+body{
+    background-color: black;
+}
+
+.botones{
+    top: 0;
+   
+    
+}
+.botones ul{
+   
+   width: 100%;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   
+   
+
+}
+.botones li{
+   list-style: none;
+   margin-right: 5%;
+   margin-left: 5%;
+  
+}
+.boton0{
+    color: white;
+    font-size: 43px;
+    font-family: fone;
+    border-style: double;
+}
+.boton0:hover{
+    color: orange;
+}
+.boton1{
+    color: white;
+    font-size: 43px;
+    font-family: fone;
+    border-style: double;
+    
+  
+
+    
+}
+.boton1:hover{
+    
+   color: orange;
+    
+}
+.boton2{
+    color: white;
+    font-size: 43px;
+    font-family: fone;
+    top: 45%;
+    border-style: double;
+    
+}
+.boton2:hover{
+    color: orange;
+    
+}
+.boton3{
+    color: white;
+    font-size: 43px;
+    font-family: fone;
+    border-style: double ;
+    
+    
+}
+.boton3:hover{
+   color: orange;
+    
+    
+}
+.boton4{
+    color: white;
+    font-size: 43px;
+    font-family: fone;
+    border-style: double;
+    
+   
+} 
+.boton4:hover{
+    color: orange;
+   
+} 
+@font-face{
+    font-family: fone;
+    src: url(Cine.ttf)
+}
+@font-face{
+    font-family: Roboto;
+    src: url(Roboto.ttf)
+}
+.pl{
+    width: 33.1%;
+}
+.p2{
+    width: 49.8%;
+}
+.p3{
+    width: 100%;
+}
+.p4{
+    width: 24.8%;
+}
+.Segundo_parrafo{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    font-family: fone;
+    
+}
+.Tercer_parrafo{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: roboto;
+}
+.pf{
+    width: 49.5%;
+    padding: 2px;
+}
+.rs1{
+    width: 7.8%;
+    margin-left: 88%;
+    
+    
+}
+.rs1:hover{
+    
+    transform: scale(0.9);
+   
+}
+.rs2{
+    width: 8%;
+    margin-left: 0;
+    
+}
+.rs2:hover{
+    transform: scale(0.9);
+}
+.Redes_sociales{
+   width: 100%;
+  
+
+}
+.Redes_sociales ul{ 
+    
+  display: flex;
+}
+.Redes_sociales li{
+    
+    list-style: none;
+    
+}
+@media only screen and (max-width:720px){
+    body{
+        background-color: black;
+    }
+
+    .boton0{
+        font-size: 35px;
+    }
+    .boton1{
+        font-size: 35px;
+    }
+    .boton2{
+        font-size: 35px;
+
+    }
+    .boton3{
+        font-size: 35px;
+
+    }
+    .boton4{
+        font-size: 35px;
+    }
+    .pl{
+        width: 100%;
+    }
+    .p2{
+        width: 100%;
+
+    }
+    .p3{
+        width: 100%;
+    }
+    .p4{
+        width: 100%;
+    }
+    .Segundo_parrafo{
+        font-size: 35px;
+    }
+    .rs1{
+        width: 19.8% ;
+        margin-left:70%;
+    }
+    .rs2{
+        width: 20%;
+        
+    }
+    .Tercer_parrafo{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:1170px){
+    body{
+        background-color: black;
+    }
+
+    .boton0{
+        font-size: 35px;
+    }
+    .boton1{
+        font-size: 35px;
+    }
+    .boton2{
+        font-size: 35px;
+
+    }
+    .boton3{
+        font-size: 35px;
+
+    }
+    .boton4{
+        font-size: 35px;
+    }
+    .pl{
+        width: 100%;
+    }
+    .p2{
+        width: 100%;
+
+    }
+    .p3{
+        width: 100%;
+    }
+    .p4{
+        width: 100%;
+    }
+    .Segundo_parrafo{
+        font-size: 35px;
+    }
+    .rs1{
+        width: 19.8% ;
+        margin-left:70%;
+    }
+    .rs2{
+        width: 20%;
+        
+    }
+    .Tercer_parrafo{
+        font-size: 16px;
+    }
+}
+    
+    
